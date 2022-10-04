@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">projetoXavier</string>
+    <string name="buscar_dispositivo">Buscar dispositivo</string>
+    <string name="transmitir_tela">Transmitir tela</string>
+</resources>

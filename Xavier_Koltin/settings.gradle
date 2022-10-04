@@ -1,0 +1,9 @@
+
+plugins {
+    id 'com.alexvasilkov.git-dependencies' version '2.0.3'
+}
+
+
+
+include ':app'
+rootProject.name = "Xavier_Koltin"

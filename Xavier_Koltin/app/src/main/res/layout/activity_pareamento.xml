@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityPareamento">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:background="@drawable/rodape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="2dp">
+
+        <Button
+            android:id="@+id/buttonBuscarDispositivo"
+            android:layout_width="205dp"
+            android:layout_height="55dp"
+            android:background="@color/purple_700"
+            android:text="@string/buscar_dispositivo"
+            android:layout_gravity="start"
+            android:textColor="@color/black"
+            app:backgroundTint="#B8B8B8"
+            app:iconTint="#FFFFFF"
+            android:drawableLeft="@mipmap/buscar"/>
+
+        <Button
+            android:id="@+id/buttonEspelhar"
+            android:layout_width="205dp"
+            android:layout_height="55dp"
+            android:background="@color/purple_700"
+            android:text="@string/transmitir_tela"
+            android:layout_gravity="end"
+            android:textColor="@color/black"
+            app:backgroundTint="#B8B8B8"
+            app:iconTint="#FFFFFF"
+            android:drawableRight="@mipmap/espelhar"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnparear"
+        android:layout_width="182dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button1"
+        android:text="PAREAR"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#C11818"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listview"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="OnClick" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

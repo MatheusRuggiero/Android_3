@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "96685039799",
+    "project_id": "leafy-star-347206",
+    "storage_bucket": "leafy-star-347206.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96685039799:android:21474194470dfd8c6fad32",
+        "android_client_info": {
+          "package_name": "com.example.googlesigninandroidnovo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96685039799-qqpnh9vbf57jaonmjm63ps12pp17g5o6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.googlesigninandroidnovo",
+            "certificate_hash": "06e55c2b904fdb3e6d9089c7791a12aa623bfa5c"
+          }
+        },
+        {
+          "client_id": "96685039799-3lkvbcgc3p8ctc3l3qvbve1es51gqoh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCogO1JCZ7RSvFoL4riUnWi4PZYiebHRc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96685039799-3lkvbcgc3p8ctc3l3qvbve1es51gqoh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
